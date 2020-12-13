@@ -1,0 +1,37 @@
+@import '../../customVariables.scss';
+
+.movie-result-container{
+  padding: 25px 20px 20px 20px;
+  background-color: $white;
+  height: 100%;
+  width: 250px;
+  box-shadow: 2px 2px 5px $gray;
+  border: none;
+  color: $darkslateblue;
+  text-align: left;
+
+  h3 {
+    font-size: $medium;
+    margin-bottom: 0px;
+    @media screen and (min-width: 600px){
+      height: 48px;
+    }
+  }
+
+  .movie-year{
+    font-size: $small;
+    margin-bottom: 5px;
+  }
+
+  .image-container{
+    width: 211px;
+    height: 211px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  img{
+    width: 211px;
+  }
+}
+

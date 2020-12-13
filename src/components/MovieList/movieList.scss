@@ -1,0 +1,26 @@
+@import '../../customVariables.scss';
+
+.movie-list-section {
+  margin-top: 60px;
+  @media screen and (max-width: 599px){
+    margin-top: 40px;
+  }
+
+  h2{
+    font-size: $large;
+    margin-bottom: 33px;
+  }
+
+
+  .search-results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-row-gap: 60px;
+    grid-column-gap: 35px;
+    padding-bottom: 60px;
+  }
+
+  .show {
+    display: block;
+  }
+}

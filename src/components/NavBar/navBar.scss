@@ -1,0 +1,42 @@
+@import '../../customVariables.scss';
+
+
+nav {
+  width: 20%;
+  background: $darkslateblue;
+  color: white;
+  padding: 40px 35px;
+  text-align: left;
+  font-size: $large;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  z-index: 2;
+
+  @include media-breakpoint-down(lg) {
+    width: 25%;
+  }
+
+  @media screen and (max-width: 599px){
+    top: 40px;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    position: fixed;
+    transition: all 0.3s ease;
+    left: -100%;
+
+    &.showMenu {
+      left: 0;
+    }
+  }
+}
+
+ul{
+  padding: 0px;
+  list-style: none;
+}
+
+.menu-link{
+  margin-bottom: 15px;
+}
