@@ -43,7 +43,7 @@ Title, Year, Rated, Released, Runtime, Genre, Director, Writer, Actors, Plot, La
 ##### How to Start App Locally
 1. Run `npm install`
 2. Run `npm start`
-3. See app in browser by at [http://localhost:3000](http://localhost:3000)
+3. See app in browser at [http://localhost:3000](http://localhost:3000)
 
 ##### Considerations after looking at wireframe and working on the assignment
 1. The mock up shows the image fitting in the gray boxes so in order to avoid distorting the 
