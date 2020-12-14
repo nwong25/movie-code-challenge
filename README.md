@@ -41,13 +41,13 @@ Title, Year, Rated, Released, Runtime, Genre, Director, Writer, Actors, Plot, La
 * Testing - Enzyme and Jest
 
 ##### Considerations after looking at wireframe and working on the assignment
-1. The mock show the image fitting in the gray boxes so in order to avoid distorting the 
-images, I hid the overflow, so you only see parts of the image if it doesn't fit in the entire container (not ideal but preferred over distorted image)
-2. Since the poster image is suppose to fit the entire top section of the modal, it was
-difficult to find a good contrast color for the X button when all the images have different background colors
+1. The mock up shows the image fitting in the gray boxes so in order to avoid distorting the 
+images, I hid the overflow that way you only see parts of the image if it doesn't fit in the entire container (not ideal but preferred over distorted image)
+2. The poster image is suppose to fit in entire top section of the modal according to mock up, it was
+difficult to find a good contrast color for the X button when all the images have different background colors so I chose to add an hover color but would probably change the design for mobile since hover does not work on devices
 3. No examples were provided for the mobile modal pop-up so in order to keep the container a uniform height, the movie details container
 is scrollable to fit all the information coming back from IMDB
-4. Only have access to the preview section of the wireframe so containers, spacings, fonts, and colors are not exact matches
+4. Only had access to the preview section of the wireframe so containers, spacings, fonts, and colors are not exact matches
 
 ---------------------------------------------------------------------------------------------
 ## Available Scripts
